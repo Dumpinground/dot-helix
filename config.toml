@@ -1,0 +1,36 @@
+theme = "Gruvbox"
+
+[editor]
+line-number = "relative"
+true-color = true
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+right = [ "diagnostics", "version-control", "selections", "position", "file-encoding" ]
+
+[editor.indent-guides]
+render = true
+# character = "⋮"
+character = "⁞"
+skip-levels = 1
+
+[editor.soft-wrap]
+enable = true
+
+[editor.whitespace]
+render = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
