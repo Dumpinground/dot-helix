@@ -1,6 +1,7 @@
 theme = "Gruvbox"
 
 [editor]
+cursorline = true
 line-number = "relative"
 true-color = true
 color-modes = true

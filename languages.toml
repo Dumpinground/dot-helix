@@ -4,3 +4,9 @@ auto-format = true
 
 [[language.config.check]]
 command = "clippy"
+
+[[language]]
+name = "nix"
+
+[language.config]
+nil.nix.flake.autoEvalInputs = true
