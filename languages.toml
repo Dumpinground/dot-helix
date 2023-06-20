@@ -2,8 +2,9 @@
 name = "rust"
 auto-format = true
 
-[language.config.cargo]
-features = [ "debug" ]
+# If you want to active the inactivated features
+# [language.config.cargo]
+# features = [ "debug" ]
 
 [language.config.check]
 command = "clippy"
