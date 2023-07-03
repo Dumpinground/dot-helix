@@ -15,7 +15,7 @@ select = "underline"
 right = [ "diagnostics", "version-control", "selections", "position", "file-encoding" ]
 
 [editor.indent-guides]
-render = true
+render = false
 # character = "⋮"
 # character = "⁞"
 skip-levels = 1
