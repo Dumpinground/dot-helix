@@ -17,7 +17,7 @@ right = [ "diagnostics", "version-control", "selections", "position", "file-enco
 [editor.indent-guides]
 render = true
 # character = "⋮"
-character = "⁞"
+# character = "⁞"
 skip-levels = 1
 
 [editor.soft-wrap]
