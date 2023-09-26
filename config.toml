@@ -2,6 +2,7 @@ theme = "gruvbox"
 
 [editor]
 cursorline = true
+bufferline = "multiple"
 line-number = "relative"
 true-color = true
 color-modes = true
