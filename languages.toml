@@ -6,7 +6,7 @@ auto-format = true
 # [language.config.cargo]
 # features = [ "debug" ]
 
-[language.config.check]
+[language-server.rust-analyzer.config.check]
 command = "clippy"
 
 # [[language]]
