@@ -14,3 +14,13 @@ command = "clippy"
 
 # [language.config]
 # nil.nix.flake.autoEvalInputs = true
+
+[[language]]
+name = "nu"
+scope = "source.nu"
+file-types = ["nu"]
+language-servers = [ "nu-lsp" ]
+
+[language-server.nu-lsp]
+command = "nu"
+args = ["--lsp"]
