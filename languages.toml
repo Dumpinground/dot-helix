@@ -24,3 +24,9 @@ language-servers = [ "nu-lsp" ]
 [language-server.nu-lsp]
 command = "nu"
 args = ["--lsp"]
+
+# a temperary fix
+[[language]]
+name = "just"
+auto-format = false
+formatter = { command = "" }
