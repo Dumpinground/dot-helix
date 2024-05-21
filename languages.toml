@@ -32,3 +32,9 @@ args = ["lsp"]
 
 [language-server.deno-lsp.config.deno]
 enable = true
+
+# a temperary fix
+[[language]]
+name = "just"
+auto-format = false
+formatter = { command = "" }
