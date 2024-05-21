@@ -24,3 +24,11 @@ language-servers = [ "nu-lsp" ]
 [language-server.nu-lsp]
 command = "nu"
 args = ["--lsp"]
+
+# Deno LSP
+[language-server.deno-lsp]
+command = "deno"
+args = ["lsp"]
+
+[language-server.deno-lsp.config.deno]
+enable = true
