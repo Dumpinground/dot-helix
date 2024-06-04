@@ -6,6 +6,9 @@ bufferline = "multiple"
 line-number = "relative"
 true-color = true
 color-modes = true
+# Increase timeout on LSP request.
+# reference link: https://github.com/helix-editor/helix/discussions/8196
+idle-timeout = 800
 
 [editor.cursor-shape]
 insert = "bar"
